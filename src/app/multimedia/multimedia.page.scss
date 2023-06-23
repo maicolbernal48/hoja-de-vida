@@ -1,0 +1,26 @@
+.gallery-container {
+    background-color: rgb(244, 247, 247);
+    max-width: 6000px; 
+    overflow-x: scroll; 
+}
+
+.gallery {
+    background-color: rgb(251, 253, 253);
+    display: inline-flex; 
+}
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#Botones {
+    margin-top: 18px;
+    text-align: center;
+}
+.custom-button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: aqua;
+}

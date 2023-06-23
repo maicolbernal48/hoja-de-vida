@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Hoja De Vida</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <div id="Salida" ><ion-avatar id="yo">
+      <img alt="Silhouette of a person's head" src="./assets/MAICOL.jpg" alt="Imagen" />
+    </ion-avatar>
+      
+    </div>
+    <ion-card id="cabeza">
+      <ion-card-header>
+        <ion-card-title>Perfil</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <p>
+          Nombre:<i><b>michael yesid bernal roa</b></i><br><br>
+          Tipo de Documento: C.C <br>
+          cedula NUMERO: 1057690684  <br>
+          Telefono: 3232519784<br>
+          Edad: 26 años <br>
+
+          Ficha: 2503816
+          Programa: Analisis y desarrollo de software
+      </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card >
+      <ion-card-header>
+        <ion-card-title>PERSONALIDAD</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <p>
+          Mi personalidad es magnética, decidida, curiosa y empática. Mi energía contagiosa y mi carácter amigable 
+          hacen de mí alguien que ilumina cualquier lugar al que voy. 
+          Sigo buscando oportunidades para crecer y ayudar a los demás, lo que me convierte en una persona admirable y valiosa 
+          en la vida de aquellos que me rodean.
+      </p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Experienciua laboral</ion-card-title>
+      </ion-card-header>
+      <p>Motorla movility<br><br>
+        Fecha de ingreso:    
+      <ion-card-content>
+        Here's a small text description for the card content. Nothing more, nothing less.
+      </ion-card-content>
+    </ion-card>
+    
+    
+    <div id="Botones">
+      <button class="custom-button" (click)="navigateToLogin()">Salir</button>
+      <button class="custom-button" (click)="navigateToMultimedia()">Multimedia</button>
+      <button class="custom-button" (click)="navigateToProyectos()">Proyectos Realizados</button>
+    </div>
+  
+</ion-content>
